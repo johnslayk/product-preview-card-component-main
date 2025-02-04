@@ -50,6 +50,6 @@ I started a short time ago, I still try to continue learning more about html and
 
 ## Author
 
-- LinkedIn - [Jonathan WR Silva]("https://www.linkedin.com/in/jonathanwslk/")
+- LinkedIn - [Jonathan WR Silva](https://www.linkedin.com/in/jonathanwslk/)
 - Frontend Mentor - [@johnslayk](https://www.frontendmentor.io/profile/johnslayk)
 - Twitter - [@johnslayk](https://www.twitter.com/johnslayk)
