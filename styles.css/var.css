@@ -1,0 +1,9 @@
+:root{
+    --color-dc: hsl(158, 36%, 37%);
+    --color-cr: hsl(30, 38%, 92%);
+    --color-vdb: hsl(212, 21%, 14%);
+    --color-dgb: hsl(228, 12%, 48%);
+    --color-wh: hsl(0, 0%, 100%);
+    --font-info: "Montserrat", sans serif;
+    --font-pd-name: "Fraunces", sans serif;
+}

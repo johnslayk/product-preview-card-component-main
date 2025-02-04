@@ -1,0 +1,117 @@
+.page{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-cr);
+}
+
+.main-panel{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color-wh);
+    width: 576px;
+    height: 50vh;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+    max-width: 580px;
+}
+
+.main-info{
+    height: 29vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2rem;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.post-image{
+    width: 50%;
+    height: 100%;
+}
+
+.post-image img{
+    height: 100%;
+    max-width: 100%;
+}
+
+.main-info .product__text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 14vw;
+
+}
+
+.main-info .title h1{
+    font-family: var(--font-info);
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: var(--color-dgb);
+}
+
+.main-info .name h2{
+    font-family: var(--font-pd-name);
+    font-weight: 700;
+    font-size: 35px;
+    margin-right: 3rem;
+}
+
+.main-info .description h3{
+    font-family: var(--font-info);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--color-dgb);
+    line-height: 1.5;
+    margin-right: 15px;
+}
+
+.main-info .price{
+    display: flex;
+    align-items: center;
+}
+
+.main-info .price .actual-price{
+    font-family: var(--font-pd-name);
+    color: var(--color-dc);
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.main-info .price .off-price{
+    font-family: var(--font-info);
+    font-size: 15px;
+    text-decoration: line-through;    
+    color: var(--color-dgb);
+}
+
+.main-info .cart .cart-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dc);
+    font-family: var(--font-info);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-wh);
+    border-radius: 7px;
+    border: none;
+    padding: 10px 61px;
+}
+
+.main-info .cart :hover{
+    background-color: #1a4031;
+    cursor: pointer;
+}
+
+.main-info .cart .cart-button .fa{
+    margin-right: 15px;
+}
