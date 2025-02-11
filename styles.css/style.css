@@ -34,11 +34,9 @@
 .post-image{
     width: 50%;
     height: 100%;
-}
-
-.post-image img{
-    height: 100%;
-    max-width: 100%;
+    background-image: url(../images/image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .main-info .product__text{
